@@ -39,3 +39,12 @@ Error: Assignment of read-only variable 'i'
 |   `unsigned long int`   |  `4 or 8 bytes`   | `0 to 4,294,967,295 (4 bytes)` `0 to 18,446,744,073,709,551,615 (8 bytes)` | `%lu` |
 |   `unsigned long long int`   |  `8 bytes`   | `0 to 18,446,744,073,709,551,615` | `%llu` |
 |   `long double`   |  `8, 12, or 16 bytes`   | Implementation-dependent, but more precision than `double` | `%Lf` |
+
+
+## Headers
+
+```sh
+gcc (Get-Item headers/*.c) -o app
+```
+
+If you need to build header files and c. 😁
