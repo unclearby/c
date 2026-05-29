@@ -48,3 +48,7 @@ gcc (Get-Item headers/*.c) -o app
 ```
 
 If you need to build header files and c. 😁
+
+```sh
+gcc boolean.c -I headers/includes -o app
+```

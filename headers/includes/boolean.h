@@ -1,8 +1,9 @@
 #ifndef PEACOCK_BOOLEAN
 #define PEACOCK_BOOLEAN
 
-#define bool Boolean
-#define True 1
-#define False 0
+typedef enum {
+    False = 0,
+    True = 1
+} Boolean;
 
 #endif
